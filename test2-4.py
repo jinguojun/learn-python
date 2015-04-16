@@ -5,11 +5,11 @@
 
 ###########题目############### 
 物理17.32 
-###########代码############### 
+###########代码###############
 import math 
-def main(): 
-        M, N= input(“请输入2个折射率M,N: ”) 
-	upRoot = math.atan(N/M) 
+def main():
+	M, N=  input  (“请输入2个折射率M,N: ”) 
+	upRoot = math.atan(N*1.0/M) 
 	x=i    #i为太阳光射向水面入射角 
 	c=90-i #c为太阳仰角 
-	The solution is"太阳仰角C=" ,C 
+	print"太阳仰角C=" ,C 
